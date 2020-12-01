@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/day01.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/puzzle.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/test01.input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +46,36 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build sample.go">
+  <component name="RunManager" selected="Go Build.go build day01.go">
     <configuration name="go build advent.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/advent.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build day01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/day01/day01.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sample/interfaces.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build routines.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sample/routines.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -65,6 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build day01.go" />
+        <item itemvalue="Go Build.go build interfaces.go" />
+        <item itemvalue="Go Build.go build routines.go" />
         <item itemvalue="Go Build.go build sample.go" />
         <item itemvalue="Go Build.go build advent.go" />
       </list>
@@ -79,36 +106,61 @@
       <option name="presentableId" value="Default" />
       <updated>1605990434184</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1606393821887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606393821887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606061760687">
-      <screen x="0" y="25" width="1920" height="984" />
+    <state x="400" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606823685014">
+      <screen x="0" y="25" width="1920" height="1104" />
     </state>
+    <state x="400" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1104@0.25.1920.1104" timestamp="1606823685014" />
     <state x="400" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.984@0.25.1920.984" timestamp="1606061760687" />
-    <state width="1286" height="308" key="GridCell.Tab.0.bottom" timestamp="1606393435394">
+    <state x="248" y="89" key="CommitChangelistDialog2" timestamp="1606393821717">
       <screen x="0" y="25" width="1920" height="984" />
     </state>
-    <state width="1780" height="220" key="GridCell.Tab.0.bottom/0.25.1920.1104@0.25.1920.1104" timestamp="1606366167859" />
-    <state width="1286" height="308" key="GridCell.Tab.0.bottom/0.25.1920.984@0.25.1920.984" timestamp="1606393435394" />
-    <state width="1286" height="308" key="GridCell.Tab.0.center" timestamp="1606393435393">
+    <state x="248" y="89" key="CommitChangelistDialog2/0.25.1920.984@0.25.1920.984" timestamp="1606393821717" />
+    <state width="1780" height="308" key="GridCell.Tab.0.bottom" timestamp="1606826570854">
+      <screen x="0" y="25" width="1920" height="1104" />
+    </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.bottom/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570854" />
+    <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236422" />
+    <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.984@0.25.1920.984" timestamp="1606702353386" />
+    <state width="1780" height="308" key="GridCell.Tab.0.center" timestamp="1606826570853">
+      <screen x="0" y="25" width="1920" height="1104" />
+    </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.center/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570853" />
+    <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
+    <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
+    <state width="1780" height="308" key="GridCell.Tab.0.left" timestamp="1606826570853">
+      <screen x="0" y="25" width="1920" height="1104" />
+    </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.left/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570853" />
+    <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236420" />
+    <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
+    <state width="1780" height="308" key="GridCell.Tab.0.right" timestamp="1606826570854">
+      <screen x="0" y="25" width="1920" height="1104" />
+    </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.right/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570854" />
+    <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
+    <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
+    <state x="264" y="254" key="Vcs.Push.Dialog.v2" timestamp="1606393828978">
       <screen x="0" y="25" width="1920" height="984" />
     </state>
-    <state width="1780" height="220" key="GridCell.Tab.0.center/0.25.1920.1104@0.25.1920.1104" timestamp="1606366167858" />
-    <state width="1286" height="308" key="GridCell.Tab.0.center/0.25.1920.984@0.25.1920.984" timestamp="1606393435393" />
-    <state width="1286" height="308" key="GridCell.Tab.0.left" timestamp="1606393435393">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-    <state width="1780" height="220" key="GridCell.Tab.0.left/0.25.1920.1104@0.25.1920.1104" timestamp="1606366167858" />
-    <state width="1286" height="308" key="GridCell.Tab.0.left/0.25.1920.984@0.25.1920.984" timestamp="1606393435393" />
-    <state width="1286" height="308" key="GridCell.Tab.0.right" timestamp="1606393435394">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-    <state width="1780" height="220" key="GridCell.Tab.0.right/0.25.1920.1104@0.25.1920.1104" timestamp="1606366167858" />
-    <state width="1286" height="308" key="GridCell.Tab.0.right/0.25.1920.984@0.25.1920.984" timestamp="1606393435394" />
+    <state x="264" y="254" key="Vcs.Push.Dialog.v2/0.25.1920.984@0.25.1920.984" timestamp="1606393828978" />
     <state x="486" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606393774550">
       <screen x="0" y="25" width="1920" height="984" />
     </state>
