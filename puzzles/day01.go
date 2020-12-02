@@ -1,9 +1,10 @@
-package main
+package puzzles
 
 import (
 	"bufio"
 	"errors"
 	"fmt"
+	"github.com/dscalo/AdventOfCode2020/internal/fs"
 	"os"
 	"strconv"
 )
@@ -14,25 +15,8 @@ func check(e error) {
 	}
 }
 
-func lineCount(path string) (error, int) {
-	file, err := os.Open(path)
-	check(err)
-
-	lines := 0
-	scanner := bufio.NewScanner(file)
-
-	for scanner.Scan() {
-		lines++
-	}
-
-	err = file.Close()
-
-	return err, lines
-
-}
-
 func readFile(path string) []int {
-	err, size := lineCount(path)
+	size, err := fs.LineCount(path)
 	check(err)
 
 	file, err := os.Open(path)
@@ -78,12 +62,12 @@ func threeSum(numbs []int, target int) (int, int, int) {
 	return 0, 0, 0
 }
 
-func main() {
+func Day01() {
 	// test01 == 514579
 	part1 := []string{"test01", "puzzle"}
 
 	for _, f := range part1 {
-		path := fmt.Sprintf("day01/%s.input", f)
+		path := fmt.Sprintf("input/day01/%s.input", f)
 		numbs := readFile(path)
 		x, y, err := twoSum(numbs, 2020, -1)
 

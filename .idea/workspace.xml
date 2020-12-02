@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day01/day01.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/puzzle.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fs/lineCount.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/day01.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/test01.input" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day01/test01.input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +38,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puzzles" />
+      <recent name="$PROJECT_DIR$/puzzles/day01" />
       <recent name="$PROJECT_DIR$/sample" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/sample" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build day01.go">
-    <configuration name="go build advent.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/advent.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build day01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,6 +65,14 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/sample/interfaces.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -89,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build day01.go" />
         <item itemvalue="Go Build.go build interfaces.go" />
         <item itemvalue="Go Build.go build routines.go" />
         <item itemvalue="Go Build.go build sample.go" />
-        <item itemvalue="Go Build.go build advent.go" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +128,18 @@
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1176" y="-251" width="470" height="582" key="#Build_Tags_&amp;_Vendoring" timestamp="1606871600865">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
+    </state>
+    <state x="-1176" y="-251" width="470" height="582" key="#Build_Tags_&amp;_Vendoring/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606871600865" />
+    <state x="-1141" y="-126" key="#Go_Modules" timestamp="1606871093774">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
+    </state>
+    <state x="-1141" y="-126" key="#Go_Modules/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606871093774" />
     <state x="400" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606823685014">
       <screen x="0" y="25" width="1920" height="1104" />
     </state>
@@ -133,30 +149,38 @@
       <screen x="0" y="25" width="1920" height="984" />
     </state>
     <state x="248" y="89" key="CommitChangelistDialog2/0.25.1920.984@0.25.1920.984" timestamp="1606393821717" />
-    <state width="1780" height="308" key="GridCell.Tab.0.bottom" timestamp="1606826570854">
-      <screen x="0" y="25" width="1920" height="1104" />
+    <state width="1780" height="308" key="GridCell.Tab.0.bottom" timestamp="1606872087594">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
     </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.bottom/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872087594" />
     <state width="1780" height="308" key="GridCell.Tab.0.bottom/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570854" />
     <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236422" />
     <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.984@0.25.1920.984" timestamp="1606702353386" />
-    <state width="1780" height="308" key="GridCell.Tab.0.center" timestamp="1606826570853">
-      <screen x="0" y="25" width="1920" height="1104" />
+    <state width="1780" height="308" key="GridCell.Tab.0.center" timestamp="1606872087593">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
     </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.center/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872087593" />
     <state width="1780" height="308" key="GridCell.Tab.0.center/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570853" />
     <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
     <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
-    <state width="1780" height="308" key="GridCell.Tab.0.left" timestamp="1606826570853">
-      <screen x="0" y="25" width="1920" height="1104" />
+    <state width="1780" height="308" key="GridCell.Tab.0.left" timestamp="1606872087592">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
     </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.left/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872087592" />
     <state width="1780" height="308" key="GridCell.Tab.0.left/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570853" />
     <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236420" />
     <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
-    <state width="1780" height="308" key="GridCell.Tab.0.right" timestamp="1606826570854">
-      <screen x="0" y="25" width="1920" height="1104" />
+    <state width="1780" height="308" key="GridCell.Tab.0.right" timestamp="1606872087594">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
     </state>
+    <state width="1780" height="308" key="GridCell.Tab.0.right/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872087594" />
     <state width="1780" height="308" key="GridCell.Tab.0.right/0.25.1920.1104@0.25.1920.1104" timestamp="1606826570854" />
     <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
     <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
+    <state x="-1432" y="-327" key="SettingsEditor" timestamp="1606872155504">
+      <screen x="-1920" y="-455" width="1920" height="1055" />
+    </state>
+    <state x="-1432" y="-327" key="SettingsEditor/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872155504" />
     <state x="264" y="254" key="Vcs.Push.Dialog.v2" timestamp="1606393828978">
       <screen x="0" y="25" width="1920" height="984" />
     </state>
