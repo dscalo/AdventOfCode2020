@@ -51,7 +51,7 @@ func goTobogganing(grid Grid, move *geometry.Point) int {
 			trees++
 		}
 
-		curPos.Add(move)
+		curPos.MovePoint(move)
 	}
 	return trees
 }

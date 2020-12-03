@@ -13,7 +13,7 @@ func (p *Point) MoveY(to int) {
 	p.Y += to
 }
 
-func (p *Point) Add(m *Point) {
+func (p *Point) MovePoint(m *Point) {
 	p.X += m.X
 	p.Y += m.Y
 }
