@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day05/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day05.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day05_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day06/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day06.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -34,7 +33,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607091011289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day 05">
+      <created>1607150044705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607150044705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,78 +173,10 @@
     <MESSAGE value="day 03" />
     <MESSAGE value="renaming method" />
     <MESSAGE value="day 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 04" />
+    <MESSAGE value="day 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 05" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1176" y="-251" width="470" height="582" key="#Build_Tags_&amp;_Vendoring" timestamp="1606871600865">
-      <screen x="-1920" y="-455" width="1920" height="1055" />
-    </state>
-    <state x="-1176" y="-251" width="470" height="582" key="#Build_Tags_&amp;_Vendoring/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606871600865" />
-    <state x="-1141" y="-126" key="#Go_Modules" timestamp="1606871093774">
-      <screen x="-1920" y="-455" width="1920" height="1055" />
-    </state>
-    <state x="-1141" y="-126" key="#Go_Modules/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606871093774" />
-    <state x="400" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606823685014">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state x="400" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1104@0.25.1920.1104" timestamp="1606823685014" />
-    <state x="400" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.984@0.25.1920.984" timestamp="1606061760687" />
-    <state x="227" y="435" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607148155963">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state x="227" y="435" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1920.1104@0.25.1920.1104" timestamp="1607148155963" />
-    <state x="-1672" y="-386" key="CommitChangelistDialog2" timestamp="1607091011181">
-      <screen x="-1920" y="-455" width="1920" height="1055" />
-    </state>
-    <state x="-1672" y="-386" key="CommitChangelistDialog2/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607091011181" />
-    <state x="248" y="89" key="CommitChangelistDialog2/0.25.1920.984@0.25.1920.984" timestamp="1606393821717" />
-    <state width="1671" height="354" key="GridCell.Tab.0.bottom" timestamp="1607149996396">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state width="1780" height="308" key="GridCell.Tab.0.bottom/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607090940608" />
-    <state width="1671" height="354" key="GridCell.Tab.0.bottom/0.25.1920.1104@0.25.1920.1104" timestamp="1607149996396" />
-    <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236422" />
-    <state width="1642" height="308" key="GridCell.Tab.0.bottom/0.25.1920.984@0.25.1920.984" timestamp="1606702353386" />
-    <state width="1671" height="354" key="GridCell.Tab.0.center" timestamp="1607149996396">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state width="1780" height="308" key="GridCell.Tab.0.center/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607090940607" />
-    <state width="1671" height="354" key="GridCell.Tab.0.center/0.25.1920.1104@0.25.1920.1104" timestamp="1607149996396" />
-    <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
-    <state width="1642" height="308" key="GridCell.Tab.0.center/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
-    <state width="1671" height="354" key="GridCell.Tab.0.left" timestamp="1607149996395">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state width="1780" height="308" key="GridCell.Tab.0.left/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607090940606" />
-    <state width="1671" height="354" key="GridCell.Tab.0.left/0.25.1920.1104@0.25.1920.1104" timestamp="1607149996395" />
-    <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236420" />
-    <state width="1642" height="308" key="GridCell.Tab.0.left/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
-    <state width="1671" height="354" key="GridCell.Tab.0.right" timestamp="1607149996396">
-      <screen x="0" y="25" width="1920" height="1104" />
-    </state>
-    <state width="1780" height="308" key="GridCell.Tab.0.right/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607090940607" />
-    <state width="1671" height="354" key="GridCell.Tab.0.right/0.25.1920.1104@0.25.1920.1104" timestamp="1607149996396" />
-    <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.1175/-253.-1055.1920.984@-253.-1055.1920.984" timestamp="1606766236421" />
-    <state width="1642" height="308" key="GridCell.Tab.0.right/0.25.1920.984@0.25.1920.984" timestamp="1606702353385" />
-    <state x="-1432" y="-327" key="SettingsEditor" timestamp="1606872155504">
-      <screen x="-1920" y="-455" width="1920" height="1055" />
-    </state>
-    <state x="-1432" y="-327" key="SettingsEditor/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1606872155504" />
-    <state x="-1656" y="-209" key="Vcs.Push.Dialog.v2" timestamp="1607091021096">
-      <screen x="-1920" y="-455" width="1920" height="1055" />
-    </state>
-    <state x="-1656" y="-209" key="Vcs.Push.Dialog.v2/-3840.-455.1920.1055/-1920.-455.1920.1055/0.25.1920.1104@-1920.-455.1920.1055" timestamp="1607091021096" />
-    <state x="264" y="254" key="Vcs.Push.Dialog.v2/0.25.1920.984@0.25.1920.984" timestamp="1606393828978" />
-    <state x="486" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606393774550">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-    <state x="486" y="415" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1920.984@0.25.1920.984" timestamp="1606393774550" />
-    <state x="329" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1606393256692">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-    <state x="329" y="242" width="670" height="676" key="search.everywhere.popup/0.25.1920.984@0.25.1920.984" timestamp="1606393256692" />
   </component>
 </project>
