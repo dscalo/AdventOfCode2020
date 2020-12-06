@@ -17,7 +17,7 @@ func getCommonAnswers(answers map[string]int, groupSize int) int {
 	return ct
 }
 
-func readQuestions(path string) (int, int) {
+func readAnswers(path string) (int, int) {
 	file, err := os.Open(path)
 	if err != nil {
 		panic(err)
@@ -62,7 +62,7 @@ func Day06() {
 
 	for _, f := range inputs {
 		path := fmt.Sprintf("input/day06/%s.input", f)
-		ansP1, ansP2 := readQuestions(path)
+		ansP1, ansP2 := readAnswers(path)
 
 		fmt.Printf("%s: part1: %d | part2: %d\n", f, ansP1, ansP2)
 	}
