@@ -3,5 +3,5 @@ package main
 import "github.com/dscalo/AdventOfCode2020/puzzles"
 
 func main() {
-	puzzles.Day06()
+	puzzles.Day07()
 }
