@@ -9,6 +9,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[3] = Day03
+}
+
 type Grid = [][]string
 
 func readFile3(path string) [][]string {

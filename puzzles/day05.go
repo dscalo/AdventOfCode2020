@@ -9,6 +9,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[5] = Day05
+}
+
 func getRange(lower int, upper int, section string) (int, int) {
 	l := 0
 	u := 0

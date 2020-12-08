@@ -8,6 +8,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[2] = Day02
+}
+
 type password struct {
 	min int
 	max int

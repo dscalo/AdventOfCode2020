@@ -7,6 +7,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[6] = Day06
+}
+
 func getCommonAnswers(answers map[string]int, groupSize int) int {
 	ct := 0
 	for _, v := range answers {
@@ -57,7 +61,6 @@ func readAnswers(path string) (int, int) {
 }
 
 func Day06() {
-	fmt.Printf("DAY 06\n")
 	inputs := []string{"test01", "puzzle"} //
 
 	for _, f := range inputs {

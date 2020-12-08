@@ -8,6 +8,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[7] = Day07
+}
+
 type bagRule struct {
 	bags map[string]int
 }
@@ -137,7 +141,6 @@ func readLuggageRules(path string) *bagRules {
 }
 
 func Day07() {
-	fmt.Printf("DAY 07\n")
 	inputs := []string{"test01", "test02", "puzzle"} //
 	for _, f := range inputs {
 		path := fmt.Sprintf("input/day07/%s.input", f)

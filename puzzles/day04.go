@@ -7,6 +7,10 @@ import (
 	"strings"
 )
 
+func init() {
+	Days[4] = Day04
+}
+
 func readPasswordFile(path string) int {
 	file, err := os.Open(path)
 	if err != nil {

@@ -9,6 +9,10 @@ import (
 	"strconv"
 )
 
+func init() {
+	Days[1] = Day01
+}
+
 func check(e error) {
 	if e != nil {
 		panic(e)
