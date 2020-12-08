@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day08/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day0.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day08.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day01.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day01.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day02.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day03.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day03.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day04.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day04.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day05.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day05.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day06.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day06.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day07.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day07.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/day08/test01.input" beforeDir="false" afterPath="$PROJECT_DIR$/input/day08/test01.input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/day08.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day08.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607391457275</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Auto run current day if file exists">
+      <created>1607393474440</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607393474440</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +212,8 @@
     <MESSAGE value="changed function name" />
     <MESSAGE value="day 07" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="Auto run current day if file exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto run current day if file exists" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
