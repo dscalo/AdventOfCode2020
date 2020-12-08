@@ -12,6 +12,8 @@ type bagRule struct {
 	bags map[string]int
 }
 
+type bagRules = map[string]*bagRule
+
 func (br *bagRule) prettyPrint() {
 	if len(br.bags) == 0 {
 		fmt.Println("No bags")
@@ -43,7 +45,7 @@ func newBagRule(r string) *bagRule {
 	return &br
 }
 
-func printBags(bags map[string]*bagRule) {
+func printBags(bags bagRules) {
 	for b, brs := range bags {
 		fmt.Printf("---- %s ----\n", b)
 		brs.prettyPrint()
@@ -77,7 +79,7 @@ func containsTargetBag(graph map[string][]string, target string) int {
 	return len(visited)
 }
 
-func numberOfBags(rules map[string]*bagRule, target string) int {
+func numberOfBags(rules bagRules, target string) int {
 	if len(rules[target].bags) == 0 {
 		return 0
 	}
@@ -89,13 +91,30 @@ func numberOfBags(rules map[string]*bagRule, target string) int {
 	return ct
 }
 
+func createGraph(bags bagRules) *map[string][]string {
+	//printBags(bags)
+	graph := make(map[string][]string)
+	for bag, brs := range bags {
+		for b := range brs.bags {
+			if _, ok := graph[b]; ok {
+
+				graph[b] = append(graph[b], bag)
+
+			} else {
+				arr := []string{bag}
+				graph[b] = arr
+			}
+		}
+	}
+	return &graph
+}
+
 //shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.
-func readLuggageRules(path string) (int, int) {
+func readLuggageRules(path string) *bagRules {
 	file, err := os.Open(path)
 	if err != nil {
 		panic(err)
 	}
-
 	bags := make(map[string]*bagRule)
 	scanner := bufio.NewScanner(file)
 
@@ -111,39 +130,22 @@ func readLuggageRules(path string) (int, int) {
 		bags[name] = newBagRule(rule[1])
 
 	}
-
-	//printBags(bags)
-	graph := make(map[string][]string)
-	for bag, brs := range bags {
-		for b := range brs.bags {
-			if _, ok := graph[b]; ok {
-
-				graph[b] = append(graph[b], bag)
-
-			} else {
-				arr := []string{bag}
-				graph[b] = arr
-			}
-		}
-
-	}
-
 	//for k,v := range graph {
 	//	fmt.Print(k,": ", v, "\n")
 	//}
-	ansP1 := containsTargetBag(graph, "shiny_gold")
-	ansP2 := numberOfBags(bags, "shiny_gold")
-	return ansP1, ansP2
+	return &bags
 }
 
 func Day07() {
 	fmt.Printf("DAY 07\n")
 	inputs := []string{"test01", "test02", "puzzle"} //
-
 	for _, f := range inputs {
 		path := fmt.Sprintf("input/day07/%s.input", f)
-		ansP1, ansP2 := readLuggageRules(path)
+		bags := readLuggageRules(path)
+		graph := createGraph(*bags)
 
+		ansP1 := containsTargetBag(*graph, "shiny_gold")
+		ansP2 := numberOfBags(*bags, "shiny_gold")
 		fmt.Printf("%s: part1: %d | part2: %d\n", f, ansP1, ansP2)
 	}
 }

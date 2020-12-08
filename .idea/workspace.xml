@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day07/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day07/test02.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day07.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/day07.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day07.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607232672442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day 07">
+      <created>1607348681665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607348681665</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +195,8 @@
     <MESSAGE value="day 05" />
     <MESSAGE value="day 06" />
     <MESSAGE value="changed function name" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed function name" />
+    <MESSAGE value="day 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 07" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
