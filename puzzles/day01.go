@@ -19,7 +19,7 @@ func check(e error) {
 	}
 }
 
-func readFile(path string) []int {
+func readIntArray(path string) []int {
 	size, err := fs.LineCount(path)
 	check(err)
 
@@ -72,7 +72,7 @@ func Day01() {
 
 	for _, f := range part1 {
 		path := fmt.Sprintf("input/day01/%s.input", f)
-		numbs := readFile(path)
+		numbs := readIntArray(path)
 		x, y, err := twoSum(numbs, 2020, -1)
 
 		if err != nil {
