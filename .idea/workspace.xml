@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day09/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day09.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day10/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day10/test02.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day10.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day01.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day01.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607429969976</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="day 9">
+      <created>1607514998003</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607514998003</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +229,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="Auto run current day if file exists" />
     <MESSAGE value="day 8 - sometimes brute force is the best option =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8 - sometimes brute force is the best option =)" />
+    <MESSAGE value="day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
