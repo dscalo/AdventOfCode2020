@@ -29,10 +29,6 @@ func chainAdapters(adapters []int) int {
 			diffs[diff] += 1
 		}
 	}
-
-	//for k,v := range diffs {
-	//	fmt.Printf("%d: %d\n",k,v)
-	//}
 	return diffs[1] * diffs[3]
 }
 
@@ -84,19 +80,3 @@ func Day10() {
 	}
 
 }
-
-/*
-for i:= 1; i < ln-1; i++ {
-		j := i + 1
-		v := true
-		for v {
-			if abs(adapters[j] - adapters[i-1]) <= 3 {
-				totDif++
-			} else {
-				v = false
-			}
-			j++
-		}
-	}
-
-*/
