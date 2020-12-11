@@ -13,17 +13,6 @@ func init() {
 	Days[11] = Day11
 }
 
-var directions = map[string]*geometry.Point{
-	"up":        geometry.NewPoint(0, -1),
-	"right":     geometry.NewPoint(1, 0),
-	"down":      geometry.NewPoint(0, 1),
-	"left":      geometry.NewPoint(-1, 0),
-	"upRight":   geometry.NewPoint(1, -1),
-	"upLeft":    geometry.NewPoint(-1, -1),
-	"downRight": geometry.NewPoint(1, 1),
-	"downLeft":  geometry.NewPoint(-1, 1),
-}
-
 func onGrid(grid [][]string, pt geometry.Point) bool {
 	if pt.Y < 0 || pt.Y >= len(grid) {
 		return false
@@ -77,7 +66,7 @@ func los(grid [][]string, pt geometry.Point, move geometry.Point) string {
 
 func visibilityCount(grid [][]string, y int, x int) int {
 	ct := 0
-	for _, pt := range directions {
+	for _, pt := range geometry.Directions {
 		if los(grid, *geometry.NewPoint(x, y), *pt) == "#" {
 			ct++
 		}

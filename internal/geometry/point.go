@@ -35,3 +35,14 @@ func NewPoints(xys [][]int) *[]Point {
 
 	return &ps
 }
+
+var Directions = map[string]*Point{
+	"up":        NewPoint(0, -1),
+	"right":     NewPoint(1, 0),
+	"down":      NewPoint(0, 1),
+	"left":      NewPoint(-1, 0),
+	"upRight":   NewPoint(1, -1),
+	"upLeft":    NewPoint(-1, -1),
+	"downRight": NewPoint(1, 1),
+	"downLeft":  NewPoint(-1, 1),
+}
