@@ -165,7 +165,7 @@ func moveShipToWaypoint(ship *geometry.Point, wp *geometry.Point, nav Nav) {
 func moveWaypoint(ship *geometry.Point, wp *geometry.Point, nav Nav) {
 	switch nav.action {
 	case "L":
-		rotateWaypoint(wp, nav)
+		fallthrough
 	case "R":
 		rotateWaypoint(wp, nav)
 	case "F":
@@ -175,29 +175,17 @@ func moveWaypoint(ship *geometry.Point, wp *geometry.Point, nav Nav) {
 	}
 }
 
-func executeInstructions(navs []Nav) int {
-	ship := geometry.NewPoint(0, 0)
-	ship.Dir = 90
-
-	for _, nav := range navs {
-		moveShip(ship, nav)
-		//nav.prettyPrint()
-		//fmt.Printf("SHIP: x: %d, y: %d dir: %d\n________________\n",ship.X, ship.Y,ship.Dir)
-	}
-	return abs(ship.X) + abs(ship.Y)
-}
-
-func moveByWaypoint(navs []Nav) int {
+func executeInstructions(navs []Nav, part int) int {
 	ship := geometry.NewPoint(0, 0)
 	ship.Dir = 90
 	wp := geometry.NewPoint(10, 1)
 
 	for _, nav := range navs {
-		moveWaypoint(ship, wp, nav)
-		//println("---------------")
-		//nav.prettyPrint()
-		//fmt.Printf("SHIP: x: %d, y: %d dir: %d\n",ship.X, ship.Y,ship.Dir)
-		//fmt.Printf("WAYPOINT: x: %d, y: %d dir: %d\n________________\n",wp.X, wp.Y,wp.Dir)
+		if part == 1 {
+			moveShip(ship, nav)
+		} else {
+			moveWaypoint(ship, wp, nav)
+		}
 	}
 	return abs(ship.X) + abs(ship.Y)
 }
@@ -209,8 +197,8 @@ func Day12() {
 
 		navs := readNavInstructions(path)
 
-		ansP1 := executeInstructions(navs)
-		ansP2 := moveByWaypoint(navs)
+		ansP1 := executeInstructions(navs, 1)
+		ansP2 := executeInstructions(navs, 2)
 
 		fmt.Printf("%s part 1 : %d | part2: %d  \n", f, ansP1, ansP2)
 	}
