@@ -1,8 +1,9 @@
 package geometry
 
 type Point struct {
-	X int
-	Y int
+	X   int
+	Y   int
+	Dir int
 }
 
 func (p *Point) MoveX(to int) {
@@ -19,7 +20,7 @@ func (p *Point) MovePoint(m *Point) {
 }
 
 func NewPoint(x int, y int) *Point {
-	p := Point{X: x, Y: y}
+	p := Point{X: x, Y: y, Dir: 0}
 
 	return &p
 }

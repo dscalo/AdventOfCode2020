@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/input/day12/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day12/test02.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day12/test03.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day12.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/geometry/point.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/geometry/point.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day11.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day11.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607695653867</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="light refactoring">
+      <created>1607728045907</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607728045907</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +263,8 @@
     <MESSAGE value="day 10 part 2 was hard" />
     <MESSAGE value="removing commented code" />
     <MESSAGE value="day 11 - much refactoring to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 11 - much refactoring to be done" />
+    <MESSAGE value="light refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="light refactoring" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
