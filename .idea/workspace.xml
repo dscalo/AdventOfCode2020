@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/puzzles/day12.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test02.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test02A.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test03.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test04.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day13/test05.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day13.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607780539837</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactoring">
+      <created>1607782383177</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607782383177</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +272,6 @@
     <MESSAGE value="day 06" />
     <MESSAGE value="changed function name" />
     <MESSAGE value="day 07" />
-    <MESSAGE value="refactoring" />
     <MESSAGE value="Auto run current day if file exists" />
     <MESSAGE value="day 8 - sometimes brute force is the best option =)" />
     <MESSAGE value="day 9" />
@@ -267,7 +280,8 @@
     <MESSAGE value="day 11 - much refactoring to be done" />
     <MESSAGE value="light refactoring" />
     <MESSAGE value="day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 12" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
