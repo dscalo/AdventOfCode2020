@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day14/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day14/test02.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day14.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day15/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day15.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day15_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/day12.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day12.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/sample/interfaces.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,6 +76,16 @@
       <filePath value="$PROJECT_DIR$/puzzles/day05_test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="day15_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/puzzles" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/dscalo/AdventOfCode2020" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/puzzles/day15_test.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="passport_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$/puzzles" />
@@ -95,10 +98,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.day15_test.go" />
         <item itemvalue="Go Test.day05_test.go" />
         <item itemvalue="Go Test.passport_test.go" />
         <item itemvalue="Go Build.go build day01.go" />
-        <item itemvalue="Go Build.go build interfaces.go" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607869822282</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day 14 -  a bit confusing at first">
+      <created>1607960611714</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607960611714</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +295,8 @@
     <MESSAGE value="day 12" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="day 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 13" />
+    <MESSAGE value="day 14 -  a bit confusing at first" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 14 -  a bit confusing at first" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

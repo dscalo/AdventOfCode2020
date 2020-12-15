@@ -13,7 +13,7 @@ func init() {
 	Days[12] = Day12
 }
 
-func abs(v int) int {
+func Abs(v int) int {
 	if v < 0 {
 		return -1 * v
 	}
@@ -187,7 +187,7 @@ func executeInstructions(navs []Nav, part int) int {
 			moveWaypoint(ship, wp, nav)
 		}
 	}
-	return abs(ship.X) + abs(ship.Y)
+	return Abs(ship.X) + Abs(ship.Y)
 }
 
 func Day12() {
