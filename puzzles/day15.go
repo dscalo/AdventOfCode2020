@@ -31,7 +31,6 @@ func playGame(numbs []int, finish int) int {
 	for t := turn; t < finish; t++ {
 		if val, ok := spoken[lastSpoken]; ok {
 			if len(val) == 1 {
-				spoken[lastSpoken] = append(val, t)
 				lastSpoken = 0
 				addSpoken(0, t, spoken)
 			} else {

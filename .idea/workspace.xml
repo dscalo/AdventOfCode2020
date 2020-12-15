@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day15/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day15.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day15_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day12.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day12.go" afterDir="false" />
-    </list>
+    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607960611714</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="day 15 - slow but correct">
+      <created>1608033920738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608033920738</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +297,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="day 13" />
     <MESSAGE value="day 14 -  a bit confusing at first" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 14 -  a bit confusing at first" />
+    <MESSAGE value="day 15 - slow but correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15 - slow but correct" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
