@@ -104,39 +104,6 @@ func findInvalidFields(notes []Note, tickets [][]int) (int, []int) {
 	return invalidSum, invalidTickets
 }
 
-func readTicketNotes(path string) ([]Note, [][]int) {
-	file, err := os.Open(path)
-	if err != nil {
-		panic(err)
-	}
-
-	var notes []Note
-	var tickets [][]int
-
-	scanner := bufio.NewScanner(file)
-
-	dataType := "n"
-
-	for scanner.Scan() {
-		line := scanner.Text()
-
-		if line == "" {
-			dataType = "t"
-			continue
-		}
-
-		switch dataType {
-		case "t":
-			tickets = append(tickets, convertToIntArr(line))
-		case "n":
-			ls := strings.Split(line, ": ")
-			notes = append(notes, *newNote(ls[0], ls[1]))
-		}
-	}
-
-	return notes, tickets
-}
-
 func containsItem(arr []int, item int) bool {
 	for _, i := range arr {
 		if i == item {
@@ -189,17 +156,12 @@ func makeNoteMap(notes []Note) map[string][]int {
 	return nm
 }
 
-func determineFields4(tickets [][]int, notes []Note) map[int]string {
+func determineFields(tickets [][]int, notes []Note) map[int]string {
 	fieldNames := map[int]string{}
-
-	safety := 0
 
 	for len(notes) > 0 {
 		matches := makeNoteMap(notes)
-		safety++
-		if safety > 5000 {
-			return fieldNames
-		}
+
 		for _, note := range notes {
 			for i := 0; i < len(tickets[0]); i++ {
 				colValid := true
@@ -236,6 +198,39 @@ func determineFields4(tickets [][]int, notes []Note) map[int]string {
 
 }
 
+func readTicketNotes(path string) ([]Note, [][]int) {
+	file, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+
+	var notes []Note
+	var tickets [][]int
+
+	scanner := bufio.NewScanner(file)
+
+	dataType := "n"
+
+	for scanner.Scan() {
+		line := scanner.Text()
+
+		if line == "" {
+			dataType = "t"
+			continue
+		}
+
+		switch dataType {
+		case "t":
+			tickets = append(tickets, convertToIntArr(line))
+		case "n":
+			ls := strings.Split(line, ": ")
+			notes = append(notes, *newNote(ls[0], ls[1]))
+		}
+	}
+
+	return notes, tickets
+}
+
 func Day16() {
 	inputs := []string{"test01", "test02", "puzzle"} //
 
@@ -246,7 +241,7 @@ func Day16() {
 		invalidSum, invalidTickets := findInvalidFields(notes, tickets)
 		tickets = purgeInvalidTickets(tickets, invalidTickets)
 
-		names := determineFields4(tickets, notes)
+		names := determineFields(tickets, notes)
 
 		ansP1 := invalidSum
 		ansP2 := getDepartureProduct(tickets[0], names)
