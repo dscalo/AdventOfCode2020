@@ -10,3 +10,12 @@ func Print2dString(arr [][]string) {
 		fmt.Print("\n")
 	}
 }
+
+func Print2dInt(arr [][]int) {
+	for x := 0; x < len(arr); x++ {
+		for y := 0; y < len(arr[x]); y++ {
+			fmt.Printf("%d ", arr[x][y])
+		}
+		fmt.Print("\n")
+	}
+}
