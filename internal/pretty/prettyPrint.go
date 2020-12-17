@@ -19,3 +19,10 @@ func Print2dInt(arr [][]int) {
 		fmt.Print("\n")
 	}
 }
+
+func Print3dString(arr [][][]string) {
+	for z := 0; z < len(arr); z++ {
+		fmt.Printf("----- Z == %d -----\n", z)
+		Print2dString(arr[z])
+	}
+}

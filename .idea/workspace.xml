@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/puzzles/day16.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day16.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day17/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/geometry/cube.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/geometry/hyperCube.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day17.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608149791588</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="light refactoring">
+      <created>1608150866215</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608150866215</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,14 +321,14 @@
     <MESSAGE value="day 10 part 2 was hard" />
     <MESSAGE value="removing commented code" />
     <MESSAGE value="day 11 - much refactoring to be done" />
-    <MESSAGE value="light refactoring" />
     <MESSAGE value="day 12" />
     <MESSAGE value="day 13" />
     <MESSAGE value="day 14 -  a bit confusing at first" />
     <MESSAGE value="day 15 - slow but correct" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="day 16 -&gt; really hard part 2!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 16 -&gt; really hard part 2!!!!!" />
+    <MESSAGE value="light refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="light refactoring" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
