@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day18/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day18/test02.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day18.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day18_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/tokens.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/tokens_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/day18.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day18.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/tokens.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/tokens.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.day18_test.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.day18_test.go" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.day05_test.go" />
         <item itemvalue="Go Test.tokens_test.go" />
         <item itemvalue="Go Test.day15_test.go" />
@@ -308,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608234675822</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="day 18 - NAILED IT!!!!">
+      <created>1608310495330</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608310495330</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +342,8 @@
     <MESSAGE value="day 16 -&gt; really hard part 2!!!!!" />
     <MESSAGE value="light refactoring" />
     <MESSAGE value="day 17 - so much code =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 17 - so much code =)" />
+    <MESSAGE value="day 18 - NAILED IT!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 18 - NAILED IT!!!!" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

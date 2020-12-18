@@ -7,6 +7,20 @@ type Token struct {
 	Value int64
 }
 
+type node struct {
+	token Token
+	next  *node
+}
+
+type Stack struct {
+	head *node
+}
+
+type Queue struct {
+	front *node
+	rear  *node
+}
+
 type Tokens = []Token
 
 func PrettyPrintTokens(ts Tokens) {
@@ -32,18 +46,8 @@ func NewToken(s string, v int64) *Token {
 	return &t
 }
 
-type node struct {
-	token Token
-	next  *node
-}
-
-type Stack struct {
-	head *node
-	size int
-}
-
 func (s *Stack) Peek() *Token {
-	if s.size == 0 {
+	if s.head == nil {
 		return nil
 	}
 	t := s.head.token
@@ -51,27 +55,25 @@ func (s *Stack) Peek() *Token {
 }
 
 func (s *Stack) Push(token *Token) {
-	s.size++
 	n := node{token: *token, next: s.head}
 	s.head = &n
 
 }
 
 func (s *Stack) Pop() *Token {
-	if s.size == 0 {
+	if s.head == nil {
 		return nil
 	}
 
 	n := s.head
 	t := n.token
 	s.head = n.next
-	s.size--
 
 	return &t
 }
 
 func (s *Stack) HasNext() bool {
-	return s.size > 0
+	return s.head != nil
 }
 
 func (s *Stack) PrettyPrint() {
@@ -92,13 +94,8 @@ func (s *Stack) PrettyPrint() {
 }
 
 func NewStack() *Stack {
-	s := Stack{head: nil, size: 0}
+	s := Stack{head: nil}
 	return &s
-}
-
-type Queue struct {
-	front *node
-	rear  *node
 }
 
 func (q *Queue) Peek() *Token {

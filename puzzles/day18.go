@@ -30,7 +30,6 @@ func getType(char string) string {
 	default:
 		matched, err := regexp.MatchString(`\d`, char)
 		if err != nil || matched == false {
-			fmt.Println("FALSE MATCH >>>>>>> ", char)
 			return ""
 		}
 		return "N"
