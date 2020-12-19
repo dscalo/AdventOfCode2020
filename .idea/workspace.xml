@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/input/day19/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day19/test02.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day19.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/day18.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day18.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/tokens.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/tokens.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.day18_test.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.day18_test.go" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.day18_test.go" />
         <item itemvalue="Go Test.day05_test.go" />
         <item itemvalue="Go Test.tokens_test.go" />
         <item itemvalue="Go Test.day15_test.go" />
@@ -311,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608310495330</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="refactoring">
+      <created>1608333084330</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608333084330</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,12 +347,12 @@
     <MESSAGE value="day 13" />
     <MESSAGE value="day 14 -  a bit confusing at first" />
     <MESSAGE value="day 15 - slow but correct" />
-    <MESSAGE value="refactoring" />
     <MESSAGE value="day 16 -&gt; really hard part 2!!!!!" />
     <MESSAGE value="light refactoring" />
     <MESSAGE value="day 17 - so much code =)" />
     <MESSAGE value="day 18 - NAILED IT!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 18 - NAILED IT!!!!" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
