@@ -10,3 +10,7 @@ and I wasn't sure I would be able to solve the puzzle in time.
 
 
 **Day 19** - I don't know how I did it, but the code I wrote for part 1 automatically worked for part 2!!!!!
+
+**Day 20** - Took me all day to get this one, but I got it without cheating or looking up hints.
+ The code is awful, needs a ton of refactoring, but it works and isn't that slow considering all the
+loops. so many loops.....

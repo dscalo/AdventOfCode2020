@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day19/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day19/test02.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day19.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day20/seaMonster.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day20/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day20.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/tiles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/tiles_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,25 +61,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="day05_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/puzzles" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/puzzles/day05_test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day15_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/puzzles" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="github.com/dscalo/AdventOfCode2020" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/puzzles/day15_test.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="day18_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$/puzzles" />
@@ -86,6 +69,26 @@
       <package value="github.com/dscalo/AdventOfCode2020" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/puzzles/day18_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/dscalo/AdventOfCode2020/puzzles" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/puzzles" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dscalo/AdventOfCode2020/puzzles" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tiles_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/puzzles" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/dscalo/AdventOfCode2020" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/puzzles/tiles_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="tokens_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -101,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.day18_test.go" />
-        <item itemvalue="Go Test.day05_test.go" />
+        <item itemvalue="Go Test.tiles_test.go" />
         <item itemvalue="Go Test.tokens_test.go" />
-        <item itemvalue="Go Test.day15_test.go" />
+        <item itemvalue="Go Test.go test github.com/dscalo/AdventOfCode2020/puzzles" />
+        <item itemvalue="Go Test.day18_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +323,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608333084330</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Day 19  i cannot believe did this one!">
+      <created>1608391215830</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608391215830</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
     <MESSAGE value="refactoring file structure" />
     <MESSAGE value="day 02" />
     <MESSAGE value="day 03" />
@@ -352,7 +361,8 @@
     <MESSAGE value="day 17 - so much code =)" />
     <MESSAGE value="day 18 - NAILED IT!!!!" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="Day 19  i cannot believe did this one!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 19  i cannot believe did this one!" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
