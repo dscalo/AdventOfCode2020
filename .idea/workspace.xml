@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day20/seaMonster.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day20/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day20.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/tiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/tiles_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pretty/prettyPrint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day21/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day21.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,14 +325,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608391215830</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Day 20  so much looping..">
+      <created>1608517438902</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608517438902</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactoring file structure" />
     <MESSAGE value="day 02" />
     <MESSAGE value="day 03" />
     <MESSAGE value="renaming method" />
@@ -362,7 +363,8 @@
     <MESSAGE value="day 18 - NAILED IT!!!!" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="Day 19  i cannot believe did this one!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 19  i cannot believe did this one!" />
+    <MESSAGE value="Day 20  so much looping.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 20  so much looping.." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

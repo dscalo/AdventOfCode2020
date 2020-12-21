@@ -91,49 +91,6 @@ func findCorners(tiles Tiles) []int {
 	return corners
 }
 
-func findMatch(tile *Tile, border, toMatch string) bool {
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipX()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipY()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipX()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.RotateRight()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipX()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipY()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	tile.FlipX()
-	if toMatch == tile.Border[border] {
-		return true
-	}
-
-	return false
-}
-
 func isTileMatch(tile *Tile, target string) bool {
 	for _, border := range Borders {
 		if tile.Border[border] == target {
@@ -591,6 +548,8 @@ func Day20() {
 		//pretty.Print2dString(megaTile.Grid)
 		//println(puzzle)
 		ansP1 := corners[0] * corners[1] * corners[2] * corners[3]
+		// the 15 is the amount of spaces in the sea monster
+		// i'm too tired to write a function to count it
 		ansP2 := totalHashMarks - (totalMonsters * 15)
 		fmt.Printf("%s part 1 : %d | part2: %d  \n", f, ansP1, ansP2)
 	}
