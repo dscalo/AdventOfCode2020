@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day21/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day21.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/day21/test01.input" beforeDir="false" afterPath="$PROJECT_DIR$/input/day21/test01.input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzles/day21.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day21.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,14 +333,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608517438902</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="removing unused function">
+      <created>1608518498241</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608518498241</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 02" />
     <MESSAGE value="day 03" />
     <MESSAGE value="renaming method" />
     <MESSAGE value="day 04" />
@@ -364,7 +371,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="Day 19  i cannot believe did this one!" />
     <MESSAGE value="Day 20  so much looping.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 20  so much looping.." />
+    <MESSAGE value="removing unused function" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing unused function" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
