@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
+    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="day 21">
+      <change afterPath="$PROJECT_DIR$/input/day22/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day22.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/day21/test01.input" beforeDir="false" afterPath="$PROJECT_DIR$/input/day21/test01.input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzles/day21.go" beforeDir="false" afterPath="$PROJECT_DIR$/puzzles/day21.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -340,14 +341,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608518498241</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="day 21">
+      <created>1608559305524</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608559305524</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 03" />
     <MESSAGE value="renaming method" />
     <MESSAGE value="day 04" />
     <MESSAGE value="day 05" />
@@ -372,7 +379,8 @@
     <MESSAGE value="Day 19  i cannot believe did this one!" />
     <MESSAGE value="Day 20  so much looping.." />
     <MESSAGE value="removing unused function" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing unused function" />
+    <MESSAGE value="day 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 21" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

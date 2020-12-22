@@ -152,7 +152,6 @@ func identifyPossibleAllergens(foods Foods) AllergenList {
 }
 
 func flagIngredients(inList Ingredients, list AllergenList) {
-
 	for _, v := range list {
 		for _, item := range v {
 			inList[item] = 1
