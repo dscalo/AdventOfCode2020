@@ -14,3 +14,7 @@ and I wasn't sure I would be able to solve the puzzle in time.
 **Day 20** - Took me all day to get this one, but I got it without cheating or looking up hints.
  The code is awful, needs a ton of refactoring, but it works and isn't that slow considering all the
 loops. so many loops.....
+
+**Day 23** If a mathematical shortcut or formula exists to solve this I couldn't 
+find it, so I went with a circular doubly linked list and used a 
+lookup table (map[int]*Node) to retrieve a node by its value
