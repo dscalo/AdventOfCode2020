@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="day 23 -">
-      <change afterPath="$PROJECT_DIR$/input/day23/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day23/test02.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/lists/linkedList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day23.go" afterDir="false" />
+    <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/input/day24/test00.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day24/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day24.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +42,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/internal/lists" />
       <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/internal/lists" />
       <recent name="$PROJECT_DIR$/puzzles" />
       <recent name="$PROJECT_DIR$/puzzles/day01" />
       <recent name="$PROJECT_DIR$/sample" />
@@ -357,14 +355,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608645568942</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="day 23 - slow but correct =)">
+      <created>1608760900086</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608760900087</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 04" />
     <MESSAGE value="day 05" />
     <MESSAGE value="day 06" />
     <MESSAGE value="changed function name" />
@@ -389,7 +393,8 @@
     <MESSAGE value="removing unused function" />
     <MESSAGE value="day 21" />
     <MESSAGE value="day 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 22" />
+    <MESSAGE value="day 23 - slow but correct =)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 23 - slow but correct =)" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
