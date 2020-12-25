@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f274-f1b7-4eb3-a6d4-8bec2714433c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day24/test00.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day24/test01.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/day24.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day25/test01.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzles/day25.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -362,14 +361,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608760900087</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 24 - slow, but there is potential to optimize">
+      <created>1608792909091</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608792909091</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 05" />
     <MESSAGE value="day 06" />
     <MESSAGE value="changed function name" />
     <MESSAGE value="day 07" />
@@ -394,7 +399,8 @@
     <MESSAGE value="day 21" />
     <MESSAGE value="day 22" />
     <MESSAGE value="day 23 - slow but correct =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 23 - slow but correct =)" />
+    <MESSAGE value="day 24 - slow, but there is potential to optimize" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 24 - slow, but there is potential to optimize" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
